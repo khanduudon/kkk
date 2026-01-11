@@ -1,0 +1,29 @@
+
+{
+    "name": "Allinonebot",
+    "description": "@aiisudhdbdbot",
+    "repository": "https://github.com/",
+    "keywords": [
+        "telegram bot",
+        "pyrogram"
+    ],
+    "env": {
+        "API_ID":{
+            "description": "Get your telegram API ID from https://my.telegram.org",
+            "value":"20491966"
+        },
+        "API_HASH":{
+            "description":"Get your telegram API HASH from https://my.telegram.org",
+		    "value":"aa1c8f86db7f78fe9bfdd77bb48a5b23"
+        },
+        "BOT_TOKEN":{
+            "description":"Get from BotFather",
+            "value":"7834327776:AAEeo14Op3q6crJwdexfx1sU8nITsRxhMsk"
+        },
+        "AUTH_USERS":{
+            "description":"Admin/Owner/Friends ID Seperate by ','  Ex: 44578878,8878899",
+            "value":"7168441486"
+        }
+    }
+
+}
